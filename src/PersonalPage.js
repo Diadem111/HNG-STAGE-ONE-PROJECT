@@ -21,7 +21,15 @@ setCurrentUTCTime(currentUTCTime);
   return (
     <div  className='p-4'>
         {/* Slack Name */}
-        <h1 data-testid="slackUserName" className='text-3xl'></h1>
+        <h1 data-testid="slackUserName" className='text-3xl'>Dolapo Wahab</h1>
+    
+    {/* Slack Picture */}
+    <img  src="" alt="Dolapo Wahab" data-testid="SlackDisplayImage" className='w-32 h-32 mt-4'/>
+   
+   {/* current day of the week */}
+   <p data-testid="currentDayOfTheWeek" className='text-lg mt-4'>Current Day: {currentDay}</p>
+    
+    
     </div>
   )
 }
