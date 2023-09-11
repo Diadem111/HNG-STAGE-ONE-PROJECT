@@ -19,7 +19,10 @@ setCurrentUTCTime(currentUTCTime);
     }, [])
     
   return (
-    <div>PersonalPage</div>
+    <div  className='p-4'>
+        {/* Slack Name */}
+        <h1 data-testid="slackUserName" className='text-3xl'></h1>
+    </div>
   )
 }
 
