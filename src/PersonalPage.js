@@ -29,7 +29,14 @@ setCurrentUTCTime(currentUTCTime);
    {/* current day of the week */}
    <p data-testid="currentDayOfTheWeek" className='text-lg mt-4'>Current Day: {currentDay}</p>
     
+    {/* current UTC Time */}
+    <p data-testid="currentUTCTime" className='text-lg'>Current UTC Time (milliseconds) : {currentUTCTime}</p>
     
+
+    {/* Track */}
+    <p data-testid="myTrack" className='text-lg mt-4'>Track:Frontend</p>
+    
+    git
     </div>
   )
 }
